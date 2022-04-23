@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Kamal Kandpal</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" type="image/png" href="favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+    <nav class="navbar">
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page">
+      <div id = "home" class="top">
+             <div class="typeout">
+                 Hello, my name is Kamal.
+             </div>
+             <div class="typeoutTwo">
+                 Welcome to my website.
+             </div>
+             <div class="typeoutThree">
+                 I like making stuff.
+             </div>
+     </div>
+     <div id = "aboutMe" class="aboutMe">
+      <div class="aboutMeInfo">
+          <div class="Title">
+              <div class="Head">About Me</div>
+              <div class="square"></div>
+          </div>
+              <div class="para">
+                  Hi, my name is Kamal and I'm a high school student from Edmonton.</div>
+              <div class="para">
+                  As a lifelong learner, my curiosity is always leading me to new things to discover. 
+              </div>
+              <div class="para">
+                  My continued interest in technology combined with this drive has led me down the journey of interface development. 
+              </div>
+              <div class="para">
+                  When I'm not coding, I love to solve Rubix Cubes and play the Violin.  
+              </div>
+      </div>
+      <img class="reveal" src="img/kamal.svg">
+      </div>
+      <div id = "skills" class="skills">
+        <div class="Title">
+            <div class="Head reveal">Skills</div>
+            <div class="square reveal"></div>
+        </div>
+        <div class="skillsBoxes">
+            <div class="skillsContainer reveal">
+                <h1>Languages</h1>
+                <div>HTML5</div>
+                <div>CSS3</div>
+                <div>Javascript</div>
+                <div>R Programming Language</div>
+            </div>
+            <div id="skillsContainerTwo" class="skillsContainer reveal">
+                <h1>Tools</h1>
+                <div>Visual Studio Code</div>
+                <div>R Studio</div>
+                <div>Netlify</div>
+                <div>Git</div>
+                <div>GitHub Pages</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id = "projects" class="projects">
+        <div class="Title">
+            <div class="Head reveal">Projects</div>
+            <div class="square reveal"></div>
+        </div>
+        <div class="projectsBoxes">
+            <div class="projectsContainer reveal">
+                <img src="img/web.jpeg">
+                <h1>Personal Website</h1>
+                <div class="buttons">
+                    <a href="https://github.com/KamalKandpal1/Personal_Website.git">
+                    <button class="code">Code</button>
+                    </a>
+                    <a href="https://kamalkandpal.netlify.app">
+                    <button class="demo">Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectsContainer reveal">
+                <img src="img/snake.jpeg">
+                <h1>The Snake Game</h1>
+                <div class="buttons">
+                    <a href="https://github.com/KamalKandpal1/The-Snake-Game.git">
+                    <button class="code">Code</button>
+                    </a>
+                    <a href="https://kamal-snake.netlify.app">
+                    <button class="demo">Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="projectsBoxes">
+            <div class="projectsContainer reveal">
+                <img src="img/cholera.jpeg">
+                <h1>Cholera Study</h1>
+                <div class="buttons">
+                    <a href="https://github.com/KamalKandpal1/Cholera-Study">
+                    <button class="code">Code</button>
+                    </a>
+                    <a href="https://rpubs.com/KamalKandpal/890119">
+                    <button class="demo">Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id = "contact" class="contact">
+        <div id="title-contact" class="Title">
+            <div class="Head reveal">Contact Me</div>
+            <div class="square reveal"></div>
+        </div>
+        <div class="form reveal">
+            <div>
+            <div class="contactBox">
+                <h2>Email</h2>
+                <p class="paraContactTwo">kandpalkbusiness@gmail.com</p>
+            </div>
+            <div class="contactBox">
+                <h2>Phone</h2>
+                <p class="paraContactTwo">587-568-0194</p>
+            </div>
+            </div>
+        <form name="contact" method="POST" data-netlify="true">
+            <div class="inputs">
+            <p class="paraContact">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Full Name*" required>
+            </p>
+            <p class="paraContact">
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email*" required>
+            </p>
+            </div>
+            <p class="paraContact">
+                <label for="message"></label>
+                <input type="text" id="message" name="message" placeholder="Message*" required>
+            </p>
+            <p>
+                <button id="submit" type="submit">Submit</button>
+            </p>
+        </form>
+        </div>
+    </div>
+<footer>
+    <h1>KAMAL KANDPAL</h1>
+</footer>
+<script src="script.js" defer></script>
+   </body>
+</html>
+ 
+ 
